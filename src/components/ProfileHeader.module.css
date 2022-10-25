@@ -29,9 +29,16 @@
 .share-button {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 .share-button img {
   margin-right: 10em;
   margin-bottom: -15px;
+  position: absolute;
+}
+
+.share-button img:hover {
+  content: url("../assets/share-button-hover.svg");
+  margin-right: 9.5em;
 }
