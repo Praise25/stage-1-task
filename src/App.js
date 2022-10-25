@@ -1,11 +1,11 @@
-import "./App.css";
-import Container from "react-bootstrap/Container";
+import classes from "./App.module.css";
+import Profile from "./components/Profile";
 
 function App() {
   return (
-    <Container>
-      <p>Hello World!</p>
-    </Container>
+    <div className={classes["app-container"]}>
+      <Profile />
+    </div>
   );
 }
 

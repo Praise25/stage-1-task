@@ -1,0 +1,33 @@
+.profile-header {
+  width: 100%;
+}
+
+.profile-header-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 15%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-header-content p {
+  padding-top: 1em;
+  font-weight: 700;
+}
+
+.profile-header-content img {
+  width: 5.5em;
+  height: 5.5em;
+  margin: 0 auto;
+}
+
+.share-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.share-button img {
+  margin-right: 10em;
+  margin-bottom: -15px;
+}
