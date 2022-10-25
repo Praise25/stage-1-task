@@ -9,8 +9,9 @@ const ProfileHeader = () => {
         <img src={shareButtonDefault} alt="share button" />
       </div>
       <div className={`${classes["profile-header-content"]}`}>
-        <img src={profilePicDefault} alt="profile pic" />
-        <p>Annette Black</p>
+        <img src={profilePicDefault} id="profile__img" alt="profile pic" />
+        <p id="twitter">Praise</p>
+        <p id="slack" hidden>Praise</p>
       </div>
     </div>
   );
