@@ -1,8 +1,13 @@
+import { Fragment } from "react";
 import ProfileHeader from "./ProfileHeader"
+import LinkList from "./LinkList";
 
 const Profile = () => {
   return (
-    <ProfileHeader />
+    <Fragment>
+      <ProfileHeader />
+      <LinkList />
+    </Fragment>
   )
 }
 

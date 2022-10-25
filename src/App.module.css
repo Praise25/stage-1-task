@@ -1,5 +1,6 @@
 .app-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 80%;
   margin: 3% auto;
