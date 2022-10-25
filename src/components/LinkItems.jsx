@@ -3,7 +3,7 @@ import classes from "./LinkItems.module.css";
 const LinkItems = (props) => {
   return (
     <div className={classes["link-item"]}>
-     <a href={props.link}>{props.name}</a>
+     <a href={props.link} id={props.id}>{props.name}</a>
     </div>
   )
 }
