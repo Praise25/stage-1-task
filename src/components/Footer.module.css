@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 2em;
   max-width: 85%;
   margin: 0 auto;
@@ -10,4 +11,13 @@
 .footer p {
   color: #667085;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    margin-left: 0;
+    padding-left: 1em;
+    height: 170px;
+    justify-content: space-between;
+  }
 }
