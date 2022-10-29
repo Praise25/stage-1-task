@@ -6,3 +6,10 @@
   margin: 3% auto;
   padding: 2em;
 }
+
+@media (max-width: 480px) {
+  .app-container {
+    max-width: 95%;
+    padding: 5px;
+  }
+}
