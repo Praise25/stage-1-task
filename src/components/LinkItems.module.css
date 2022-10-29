@@ -25,3 +25,8 @@
 .link-item a:focus {
   border-color: #98A2B3;
 }
+
+.link-item a sub {
+  font-size: 0.85em;
+  font-weight: 400;
+}
