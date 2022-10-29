@@ -6,8 +6,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 15%;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -41,4 +39,25 @@
 .share-button img:hover {
   content: url("../assets/share-button-hover.svg");
   margin-right: 9.5em;
+}
+
+@media (max-width: 768px) {
+  .share-button img {
+    margin-right: 0;
+  }
+
+  .share-button img:hover {
+    margin-right: -0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .share-button img {
+    content: url("../assets/mobile-share-button-default.svg");
+  }
+
+  .share-button img:hover {
+    content: url("../assets/mobile-share-button-hover.svg");
+    margin-right: 0;
+  }
 }
